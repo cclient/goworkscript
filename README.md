@@ -4,7 +4,7 @@ go的一些脚本工具
 
 这个项目不是什么大工程，都很轻，更像是类似python的业余脚本
 
-####src/client/pdf
+#### src/client/pdf
 
 下载极邦客网站pdf
 
@@ -37,7 +37,7 @@ google,!@#$%&,不是每个人都,!@#$%&,为用适用更多人(也为省点代理
 爬虫拿到的部分pdf文件信息示例
 
 
-##src/client/spider 
+## src/client/spider 
 
 后台并行网页抓取(只保留了基本的get请求,需要加代理,加header头,多节点分发的可以自已补充)
 
@@ -64,7 +64,7 @@ go http 底层会复用tcp连接,请求效率很高
 并发比较粗糙，实际可以封装的通用一些。
 
 
-##src/client/wangpiao
+## src/client/wangpiao
 
 网票网抓取内容解析，网站改版，部分已失效
 
